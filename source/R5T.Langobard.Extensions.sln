@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Langobard.Extensions.Construction", "R5T.Langobard.Extensions.Construction\R5T.Langobard.Extensions.Construction.csproj", "{BE89BB73-2770-4523-9797-A3FE95BA16EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard.Extensions.Construction", "R5T.Langobard.Extensions.Construction\R5T.Langobard.Extensions.Construction.csproj", "{BE89BB73-2770-4523-9797-A3FE95BA16EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Langobard.Extensions", "R5T.Langobard.Extensions\R5T.Langobard.Extensions.csproj", "{A58B8C8B-5795-4A70-B29B-DE0CF426F9A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard.Extensions", "R5T.Langobard.Extensions\R5T.Langobard.Extensions.csproj", "{A58B8C8B-5795-4A70-B29B-DE0CF426F9A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Langobard.Extensions.Testing", "R5T.Langobard.Extensions.Testing\R5T.Langobard.Extensions.Testing.csproj", "{BDF49518-F9D1-407E-B149-593A0F70FBA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard.Extensions.Testing", "R5T.Langobard.Extensions.Testing\R5T.Langobard.Extensions.Testing.csproj", "{BDF49518-F9D1-407E-B149-593A0F70FBA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{B44AE142-AE44-4C7D-8791-AD290EA1B3F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard", "..\..\R5T.Langobard\source\R5T.Langobard\R5T.Langobard.csproj", "{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BE89BB73-2770-4523-9797-A3FE95BA16EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{BDF49518-F9D1-407E-B149-593A0F70FBA1}.Release|x64.Build.0 = Release|Any CPU
 		{BDF49518-F9D1-407E-B149-593A0F70FBA1}.Release|x86.ActiveCfg = Release|Any CPU
 		{BDF49518-F9D1-407E-B149-593A0F70FBA1}.Release|x86.Build.0 = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|x64.Build.0 = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Debug|x86.Build.0 = Debug|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x64.ActiveCfg = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x64.Build.0 = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x86.ActiveCfg = Release|Any CPU
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10} = {B44AE142-AE44-4C7D-8791-AD290EA1B3F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB837583-E000-441B-9357-81453D7CD4D3}
 	EndGlobalSection
 EndGlobal
