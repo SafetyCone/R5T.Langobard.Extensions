@@ -10,9 +10,11 @@ namespace R5T.Langobard
         #region Static
 
         /// <summary>
-        /// Adds console logging.
+        /// Adds default logging.
+        /// Default logging includes:
+        /// * Console logging.
         /// </summary>
-        private static void AddDefaultLogging(ILoggingBuilder loggingBuilder)
+        public static void AddDefaultLogging(ILoggingBuilder loggingBuilder)
         {
             loggingBuilder.AddConsole();
         }
