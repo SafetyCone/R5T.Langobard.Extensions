@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard", "..\..\R5T.Langobard\source\R5T.Langobard\R5T.Langobard.csproj", "{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Langobard.Console", "..\..\R5T.Langobard\source\R5T.Langobard.Console\R5T.Langobard.Console.csproj", "{771870CB-891D-440B-A4FC-DF539505FA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,12 +73,25 @@ Global
 		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x64.Build.0 = Release|Any CPU
 		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x86.ActiveCfg = Release|Any CPU
 		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10}.Release|x86.Build.0 = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|x64.Build.0 = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|x64.ActiveCfg = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|x64.Build.0 = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{771870CB-891D-440B-A4FC-DF539505FA4E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E6FD0278-07B7-4CAC-A62A-6F9E23F2CF10} = {B44AE142-AE44-4C7D-8791-AD290EA1B3F4}
+		{771870CB-891D-440B-A4FC-DF539505FA4E} = {B44AE142-AE44-4C7D-8791-AD290EA1B3F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB837583-E000-441B-9357-81453D7CD4D3}
